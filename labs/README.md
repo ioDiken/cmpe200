@@ -3,56 +3,56 @@
 >These labs were all run on a Raspberry Pi 4, but it shouldn't matter which Pi you use.
 
 #### Lab1
->Intro
+-Intro
 #### Lab2
->Registers & basic arithmetic
+-Registers & basic arithmetic
 #### Lab3
->Memory, addresses, load, and store
+-Memory, addresses, load, and store
 #### Lab4
->GDB
+-GDB
 #### Lab5
->Branches
+-Branches
 #### Lab6
->Control Structures
+-Control Structures
 #### Lab7
->Indexing modes
+-Indexing modes
 #### Lab8
->Arrays and structures and more indexing modes.
+-Arrays and structures and more indexing modes.
 #### Lab9
->Functions (I)
+-Functions (I)
 #### Lab10
->Functions (II). The stack
+-Functions (II). The stack
 #### Lab11
->Predication
+-Predication
 #### Lab12
->Loops and the status register
+-Loops and the status register
 #### Lab13
->Floating point numbers
+-Floating point numbers
 #### Lab14
->Matrix multiply
+-Matrix multiply
 #### Lab15
->Integer division
+-Integer division
 #### Lab16
->Switch control structure
+-Switch control structure
 #### Lab17
->Passing data to functions
+-Passing data to functions
 #### Lab18
->Local data and the frame pointer
+-Local data and the frame pointer
 #### Lab19
->The operating system
+-The operating system
 #### Lab20
->Indirect calls
+-Indirect calls
 #### Lab21
->Subword data
+-Subword data
 #### Lab22
->The Thumb instruction set
+-The Thumb instruction set
 #### Lab23
->Nested functions
+-Nested functions
 #### Lab24
->Trampolines
+-Trampolines
 #### Lab25
->Integer SIMD
+-Integer SIMD
 #### Lab26
->A primer about linking
+-A primer about linking
 #### Lab27
->Dynamic linking
+-Dynamic linking
