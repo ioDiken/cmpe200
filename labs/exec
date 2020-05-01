@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [[ "$1" == "-h" ]] || [[ -z "$1" ]]; then
+	echo "Script to compile and execute assembly code for labs.\
+    ARG1   lab dir. Must contain lab.s file to compile"
+fi
+
 # find dirname of script, used for portability
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
