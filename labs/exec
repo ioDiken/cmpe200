@@ -11,11 +11,17 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 # find full path of arg1
 ARG1=$(readlink -f $1)
 
-# use standardized makefile + arg1 for dir
-MAKEFILE="make -C ${ARG1} -f ${DIR}/Makefile"
+# if arg2 present, build different executible than "lab"
+if [[ -z "$2" ]]; then
+	LAB_NAME=lab
+else
+	LAB_NAME=$2
+fi
+
+MAKEFILE="make -C ${ARG1} -f ${DIR}/Makefile lab=${LAB_NAME}"
 $MAKEFILE clean
 $MAKEFILE
 
 #print output of lab
 printf "\nOUTPUT:\n"
-${ARG1}/lab ; echo $?
+${ARG1}/${LAB_NAME} ; echo $?
