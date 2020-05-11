@@ -22,6 +22,5 @@ MAKEFILE="make -C ${ARG1} -f ${DIR}/Makefile lab=${LAB_NAME}"
 $MAKEFILE clean
 $MAKEFILE
 
-#print output of lab
-printf "\nOUTPUT:\n"
-${ARG1}/${LAB_NAME} ; echo $?
+# execute & direct output to file
+${ARG1}/${LAB_NAME} 2>&1 | tee ${ARG1}/${LAB_NAME}_output.txt
